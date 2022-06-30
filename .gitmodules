@@ -1,0 +1,6 @@
+[submodule "Vozel/vendor/spdlog"]
+	path = Vozel/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Vozel/vendor/GLFW"]
+	path = Vozel/vendor/GLFW
+	url = https://github.com/TheCherno/glfw.git

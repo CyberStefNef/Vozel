@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Windows">
+      <UniqueIdentifier>{64FBD71A-50F4-F66C-7926-DCF1657ED678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vozel">
+      <UniqueIdentifier>{F52D520E-6142-7ABF-2AC4-1D1F969776F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vozel\Events">
+      <UniqueIdentifier>{39F4F3F6-2557-839B-CEDC-BB51BA1E4F1E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vozel.h" />
+    <ClInclude Include="src\Vozel\Application.h">
+      <Filter>Vozel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vozel\Core.h">
+      <Filter>Vozel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vozel\EntryPoint.h">
+      <Filter>Vozel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vozel\Events\ApplicationEvent.h">
+      <Filter>Vozel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vozel\Events\Event.h">
+      <Filter>Vozel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vozel\Events\KeyEvent.h">
+      <Filter>Vozel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vozel\Events\MouseEvent.h">
+      <Filter>Vozel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vozel\Layer.h">
+      <Filter>Vozel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vozel\LayerStack.h">
+      <Filter>Vozel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vozel\Log.h">
+      <Filter>Vozel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vozel\Window.h">
+      <Filter>Vozel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vzpch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vozel\Application.cpp">
+      <Filter>Vozel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vozel\Layer.cpp">
+      <Filter>Vozel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vozel\LayerStack.cpp">
+      <Filter>Vozel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vozel\Log.cpp">
+      <Filter>Vozel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vzpch.cpp" />
+  </ItemGroup>
+</Project>
